@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/10/trunk
+END
+MSToolkitTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/MSToolkitTypes.h
+END
+MSReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/6/trunk/MSReader.cpp
+END
+Spectrum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/Spectrum.cpp
+END
+MSObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/MSObject.cpp
+END
+MSReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/MSReader.h
+END
+Spectrum.h
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/Spectrum.h
+END
+MSObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/MSObject.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/9/trunk/Makefile
+END

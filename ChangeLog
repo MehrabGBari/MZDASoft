@@ -1,0 +1,76 @@
+#//////////////////////////////////////////////////////////////////////////////
+#//  MZDASoftPPE v.1.0 is under the GPL Version 2 License.
+#//  October 2014.
+#//  Please refer to the included MZDASoftPPELicense.txt file
+#//  for the full text of license.
+#//
+#//    This program is free software; you can redistribute it and/or modify
+#//    it under the terms of the GNU General Public License version 2 
+#//    as published by the Free Software Foundation.
+#//    http://www.gnu.org/licenses/gpl-2.0.txt
+#// 
+#//    This program is distributed in the hope that it will be useful,
+#//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#//    GNU General Public License for more details.
+#//
+#//    You should have received a copy of the GNU General Public License Verion 2 
+#//    along with this program; if not, write to the Free Software Foundation, Inc.,
+#//    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+#//
+#//    Contact Developer(s) at:
+#//    email: michelle.zhang@utsa.edu
+#//    web: http://compgenomics.utsa.edu/zgroup/MZDASoft
+#//    tel: 210-458-6856
+#//    mail:
+#//    Department of Electrical and Computer Engineering, BSE 1.328
+#//    The University of Texas at San Antonio
+#//    One UTSA Circle
+#//    San Antonio, TX 78249
+#//
+#//    In collaboration with the RCMI Computational Biology Initiative/
+#//    Computational Systems Biology Core at the University of Texas at 
+#//    San Antonio. [www.cbi.utsa.edu]
+#//
+#//    Grant Acknowledgments:
+#//    "This work received computational support from 
+#//    Computational System Biology Core, funded by the National Institute 
+#//    on Minority Health and Health Disparities (G12MD007591) from the 
+#//    National Institutes of Health."
+#//
+#// Copyright (c) 2014, The University of Texas at San Antonio. All rights reserved.
+#//////////////////////////////////////////////////////////////////////////////
+
+
+1.0.0: Oct. 2014 Release
+
+2012-11-05  Nelson Ramirez  <Nelson.Ramirez@utsa.edu>;  Michelle Zhang, Ph.D <Michelle.Zhang@utsa.edu>
+	* Design of the MZDASoft High Performance Proteomics Software Architecture.
+		- Key goals:
+		- Handle large numbers of LC/MS data files.
+		- Allow for data parallelism.
+		- Allow for data integration.
+		- Provide for a robust framework, with data processing locality & parallelism.
+		- Use data layering for functionality encapsulation.
+			- Avoid re-generating lower layers if trying novel algorithms at higher layers.
+		- Allow rapid visualization of algorithm results via dynamic m code generation.
+		- Develop data parallel framework to enable multi-processing strategies.
+		- Allow for the possibility of having Plug-in algorithms at each data layer.
+		- Allow traceability of results using a data layering and encapsulation approach.
+		- Provide for a full C++ software system.
+		- Provide for concept of processing Workflows.
+		- Provide a foundation for data mining applications on LC/MS data from multiple mzXML files.
+		- Provide a foundation of unit,system, and regressions tests as a basis for future development.
+		- Provide a framework for integrating data from thousands of experiments using a 
+                  layered approach similar to the "networking OSI model".
+		- Provide a framework for creating novel algorithms at different layers of the MZDASoft LC/MS data stack.
+		- Provide a framework for running a SOA architecture for data mining large numbers of mzXML data files.
+	* First version of MZDASoft High Performance Proteomics Software in C++.
+	* Data Binning Algorithm in C++ for MZDA Level 1 format files.
+     	* LC Candidate Generation Algorithm in C++ for MZDA Level 2 format files.
+	* Ability to generate MZDA Level 1 and MZDA Level 2 format files.
+	* Automated Workflows for multi-file processing using PRLL multi-processing system.
+	* Ability to visualize XICs with LC Candidate overlays via dynamically generated m code.
+ 	* Ability to query mz and retention time ranges within multiple MZDA Level 2 output directories.
+	* Preliminary GUI infrastructure in QT for interfacing with command line executable & results files.
+

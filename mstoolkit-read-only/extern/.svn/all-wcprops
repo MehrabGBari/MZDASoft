@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/5/trunk/extern
+END
+expat-2.0.1.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/4/trunk/extern/expat-2.0.1.tar.gz
+END
+zlib-1.2.5.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/4/trunk/extern/zlib-1.2.5.tar.gz
+END
+sqlite-amalgamation-3070500.zip
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/extern/sqlite-amalgamation-3070500.zip
+END
